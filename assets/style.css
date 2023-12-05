@@ -1,3 +1,10 @@
+:root {
+    --green: #283618;
+    --font: 26px;
+    --bg-green: #87986A;
+
+}
+
 * {
     box-sizing: border-box;
 
@@ -7,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E9F5DB;
-    color: #283618;
+    color: var(--green);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
 }
@@ -15,14 +22,14 @@ body {
 header {
     position: relative;
     width: 100%;
-    background-color:#87986A;
-    color: #283618;
+    background-color: #87986A;
+    color: var(--green);
 }
 
 header h1 {
-    font-size: 55px;
+    font-size: var(--font);
     background-color: #CCD5AE;
-    width: 25%;
+    width: 20%;
     margin: 0;
     padding: 5px;
     text-align: center;
@@ -31,7 +38,7 @@ header h1 {
 header nav ul {
     position: absolute;
     right: 50px;
-    top: 15px;
+    top: -13px;
 
 }
 
@@ -42,8 +49,8 @@ header nav li {
 }
 
 header nav a {
-    color: #283618;
-    font-size: 25px;
+    color: var(--green);
+    font-size: 26px;
     font-weight: bold;
 
 }
@@ -63,7 +70,7 @@ header nav a {
     position: absolute;
     bottom: 15px;
     right: 20px;
-    background-color: #87986A;
+    background-color: var(--bg-green);
     width: 25%;
     text-align: center;
 }
@@ -75,21 +82,21 @@ header nav a {
 }
 
 .left-title {
-    font-size: 45px;
+    font-size: var(--font);
     font-weight: bold;
     text-align: right;
     width: 20%;
     position: relative;
     margin: 0 auto;
     padding-left: 2vw;
-
+    margin-right: 20px;
 }
 
-.about h3,
+.about,
 .work {
     padding: 5px;
     padding-right: 20px;
-    border-right: 4px solid #283618;
+    border-right: 4px solid var(--green);
     margin-top: 10px;
     margin-bottom: 50px;
 
@@ -97,16 +104,13 @@ header nav a {
 }
 
 
-
-
 .about {
-    height: 200px;
-
+    height: 150px;
 }
 
 
 .work {
-    height: 84%;
+    height: 85%;
 
 }
 
@@ -126,11 +130,11 @@ header nav a {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    text-align: left;
+    text-align: justify;
     flex-wrap: wrap;
     margin: 0 auto;
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .work1-img {
@@ -151,12 +155,12 @@ header nav a {
     height: 125px;
     bottom: 20px;
     width: 125px;
-    color: #283618;
+    color: var(--green);
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #87986A;
+    background-color: var(--bg-green);
     line-height: 1;
-    margin:10px;
+    margin: 10px;
 
 }
 
@@ -184,16 +188,16 @@ header nav a {
 }
 
 .work2 {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-self: flex-end;
     height: 125px;
     width: 125px;
-    color: #283618;
+    color: var(--green);
     margin-bottom: 20px;
     margin-left: 20px;
     padding-left: 20px;
-    background-color: #87986A;
+    background-color: var(--bg-green);
     line-height: 1;
     margin: 10px;
 }
@@ -219,20 +223,19 @@ header nav a {
 }
 
 .work3 {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-self: flex-end;
     align-items: right;
     height: 125px;
     width: 125px;
-    color: #283618;
+    color: var(--green);
     margin-bottom: 20px;
     margin-left: 20px;
     padding-left: 20px;
-    background-color: #87986A;
+    background-color: var(--bg-green);
     line-height: 1;
     margin: 10px;
-
 
 }
 
@@ -258,16 +261,16 @@ header nav a {
 }
 
 .work4 {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-self: flex-end;
     height: 125px;
     width: 125px;
-    color: #283618;
+    color: var(--green);
     margin-bottom: 20px;
     margin-left: 20px;
     padding-left: 20px;
-    background-color: #87986A;
+    background-color: var(--bg-green);
     line-height: 1;
     margin: 10px;
 
@@ -290,17 +293,17 @@ header nav a {
 }
 
 .work5 {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-self: flex-end;
     align-items: right;
     height: 125px;
     width: 125px;
-    color: #283618;
+    color: var(--green);
     margin-bottom: 20px;
     margin-left: 20px;
     padding-left: 20px;
-    background-color: #87986A;
+    background-color: var(--bg-green);
     line-height: 1;
     margin: 10px;
 
@@ -310,35 +313,29 @@ header nav a {
 footer {
     display: flex;
     height: 20vh;
-    color: #283618;
+    color: var(--green);
     margin-top: 5vh;
-    width: 100vw;
-    width:max-content;
-
-    
 }
 
 .page-contact {
     display: flex;
     height: 50px;
-    width: 85vw;
+    width: 81vw;
     align-self: center;
 }
 
 .contact {
     display: flex;
-    border-right: 4px solid #283618;
-    text-align: right;
-    width: 15vw;
-    margin-left: -1.5vw;
+    border-right: 4px solid var(--green);
+    margin-left: auto;
+    padding-right: 20px;
 }
 
 footer h3 {
-    font-size: 45px;
+    font-size: var(--font);
     font-weight: bold;
-    margin-right: 20px;
     line-height: 1;
-
+    text-align: right;
 }
 
 footer a {
@@ -346,8 +343,125 @@ footer a {
     margin: 0 auto;
     font-size: 25px;
     font-weight: bold;
-    color: #283618;
-    
+    color: var(--green);
 }
 
-@media all screen {}
+
+/* Mobile */
+
+@media only screen and (max-width: 760px) {
+
+
+    header h1 {
+        width: 35%;
+    }
+
+    header nav ul {
+        display: flex;
+        width: 50%;
+        margin-left: auto;
+    }
+
+    header nav a {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .hero-banner {
+        display: flex;
+        width: 100%;
+        align-content: center;
+        height: 250px;
+    }
+
+    .left-title {
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-text h3 {
+        height: 250px;
+        font-size: 14px;
+        padding: 10px;
+        text-align: justify;
+        margin-bottom: 35px;
+    }
+
+    .about {
+        height: 250px;
+        margin-bottom: 20px;
+
+    }
+
+    .work {
+        height: 650px;
+
+    }
+
+
+.work1-img,
+.work2-img,
+.work3-img,
+.work4-img,
+.work5-img {
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.footer {}
+
+.contact h3 {
+    font-size: 18px;
+}
+
+.contact {
+    margin-left: -20px;
+    padding-right: 10px;
+}
+
+footer a {
+
+    font-size: 16px;
+}
+
+}
+
+
+/* Tablet IPad */
+@media only screen and (min-width: 768px) and (max-width:1000px) {
+    .about-text h3 {
+        height: 300px;
+        margin-bottom: 60px;
+    }
+
+    .about {
+        height: 300px;
+
+    }
+
+    .work1-img,
+    .work2-img,
+    .work3-img,
+    .work4-img,
+    .work5-img {
+
+        height: 300px;
+    }
+
+    .work {
+        height: 73%;
+    }
+
+    .contact h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact {
+        margin-left: -20px;
+        padding: 14px;
+    }
+}
