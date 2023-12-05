@@ -10,7 +10,7 @@ The aim of this portfoilio is to showcase my skills to the recruiters in an orga
 Resposive Nav bar to allow easy access to all sections of the webpage.
 
 
-<img src="/assets/images/screenshot_(290).png">
+<img src="/assets/images/screenshot (290).png">
 
 ![Alt text]([assets/images/Screenshot (290).png](https://github.com/tayyabaifzal/Portfolio-Tayyaba/blob/72e6fe448089e988a7655f75485b6979f0c8731c/assets/images/Screenshot%20(290).png))
 
