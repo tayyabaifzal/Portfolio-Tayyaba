@@ -59,7 +59,7 @@ header nav a {
     position: relative;
     width: 100%;
     height: 576px;
-    background: url(./images/hero1.jpg);
+    background-image: url(../images/hero1.jpg);
     margin-bottom: 25px;
     background-repeat: no-repeat;
     background-size: cover;
