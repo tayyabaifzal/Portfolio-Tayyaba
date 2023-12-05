@@ -10,28 +10,22 @@ The aim of this portfoilio is to showcase my skills to the recruiters in an orga
 Resposive Nav bar to allow easy access to all sections of the webpage.
 
 
-![Alt text](assets/images/Screenshot (290).png)
+!(assets/images/Screenshot-(290).png)
 
 
 
 Detailed about me page to get to know me better.
-
-
-![Alt text](assets/images/Screenshot (291).png)
+![Alt text](assets/images/Screenshot-(291).png)
 
 
 
 Work section include all my projects along with the coding skills and languages used.
-
-
-![Alt text](assets/images/Screenshot (292).png)
+![Alt text](assets/images/Screenshot-(292).png)
 
 
 
 A contact section with all the ontact information.
-
-
-![Alt text](assets/images/Screenshot (294).png)
+![Alt text](assets/images/Screenshot-(294).png)
 
 
 The website can also be viewed on mobile phone snd tablets. 
@@ -41,7 +35,7 @@ The website can ben assessed through following link:
 
 
 
-![Alt text](assets/images/Screenshot (290).png)
+![Alt text](assets/images/Screenshot-(290).png)
 
 
 ## Contact
