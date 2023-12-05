@@ -10,8 +10,9 @@ The aim of this portfoilio is to showcase my skills to the recruiters in an orga
 Resposive Nav bar to allow easy access to all sections of the webpage.
 
 
-!(assets/images/Screenshot-(290).png)
+![Alt text](assets/images/Screenshot (290).png)
 
+![Alt text](assets/images/Screenshot-(291).png)
 
 
 Detailed about me page to get to know me better.
