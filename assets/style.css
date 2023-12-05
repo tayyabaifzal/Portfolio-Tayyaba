@@ -1,3 +1,4 @@
+/*main elements */
 :root {
     --green: #283618;
     --font: 26px;
@@ -26,6 +27,16 @@ header {
     color: var(--green);
 }
 
+footer {
+    display: flex;
+    height: 20vh;
+    color: var(--green);
+    margin-top: 5vh;
+}
+
+
+
+/* Name banner on left side*/
 header h1 {
     font-size: var(--font);
     background-color: #CCD5AE;
@@ -34,6 +45,8 @@ header h1 {
     padding: 5px;
     text-align: center;
 }
+
+/* Navigation */
 
 header nav ul {
     position: absolute;
@@ -55,6 +68,8 @@ header nav a {
 
 }
 
+/*Hero*/
+
 .hero-banner {
     position: relative;
     width: 100%;
@@ -74,6 +89,9 @@ header nav a {
     width: 25%;
     text-align: center;
 }
+
+
+/*Main Content of left side of the page*/
 
 .main-content {
     position: relative;
@@ -115,6 +133,7 @@ header nav a {
 }
 
 
+/*Main Content of right side of the page*/
 .right-content {
     font-size: 18px;
     font-weight: bold;
@@ -126,6 +145,7 @@ header nav a {
     margin: 0 auto;
 }
 
+/*About me */
 .about-text h3 {
     display: flex;
     flex-direction: column;
@@ -137,6 +157,10 @@ header nav a {
     margin-bottom: 10px;
 }
 
+
+
+
+/*Work section including images, texts and text-boxes */
 .work1-img {
     background-image: url(./images/work1.jpg);
     background-repeat: no-repeat;
@@ -295,12 +319,8 @@ header nav a {
     margin: 10px;
 }
 
-footer {
-    display: flex;
-    height: 20vh;
-    color: var(--green);
-    margin-top: 5vh;
-}
+
+/* Contact Section*/
 
 .page-contact {
     display: flex;
@@ -332,7 +352,7 @@ footer a {
 }
 
 
-/* Mobile */
+/* Media query Mobile */
 
 @media only screen and (max-width: 760px) {
 
@@ -415,7 +435,7 @@ footer a {
 }
 
 
-/* Tablet IPad */
+/*Media query Tablet/IPad */
 @media only screen and (min-width: 768px) and (max-width:1000px) {
     .about-text h3 {
         height: 300px;
