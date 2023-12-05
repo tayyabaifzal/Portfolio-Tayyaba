@@ -32,6 +32,8 @@ The website can also be viewed on mobile phone snd tablets.
 ## Application Link
 The website can ben assessed through following link:
 
+https://tayyabaifzal.github.io/Portfolio-Tayyaba/
+
 
 
 <img src="assets/images/Screenshot (290).png">
